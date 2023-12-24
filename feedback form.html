@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="vieweekport" content="weekidth=device-weekidth, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: left;
+            font-size: 20px;
+        }
+        
+        optgroup {
+            font-size: larger;
+        }
+        
+        #p {
+            align-items: center;
+            grid-area: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Html Forms</h2>
+    <h1>Requirement Form</h1>
+    <p>This is the form for all the people who have coupons of Vistara for spending Holiday at a great place with all Expenses on vistara</p>
+    <div id="p">
+        <div>
+            <form action=" ">
+                Enter Your First Name <input type="text " name="Name"> <br><br> Enter Your Last Name <input type="text " name="SurName ">
+
+                <br><br>
+                <b>Gender</b><br>
+                <input type="radio" id="Female" name="Gender" value="F">
+                <label for="Female">Female</label>
+
+                <input type="radio" id="Male" name="Gender" value="M">
+                <label for="Male">Male</label>
+                <br><br>
+        </div>
+        <div>
+            <label for="Birthday">Date of Birth </label><br>
+            <input type="date" id="Birthday" name="Birthday">
+            <br><br>
+            <label for="email">Enter Your Official Mail-ID</label><br>
+            <input type="email" id="email" name="email">
+            <br><br>
+            <label for="color">Enter Your Favourite Color </label><br>
+            <input type="color" id="color" name="color">
+            <br><br> <label for="week">Enter Details when You would like to go on holiday? </label><br>
+            <input type="week" id="week" name="week">
+            <br><br>
+        </div>
+        <div>
+            <label for="places">Enter where you would like to go for a holiday?</label><br>
+            <select name="places" id="places">
+                <optgroup><i>
+                    <option value="Aurangabad">Aurangabad</option>
+                    <option value="Banglore">Banglore</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Dholakpur">Dholakpur</option>
+                    <option value="Indore">Indore</option>
+                    <option value="Jaipur">Jaipur</option>
+                    <option value="Nanital">Nanital</option>
+                    <option value="Shimla">Shimla</option>
+                    <option value="Udaipur">Udaipur</option>
+                </i>
+                </optgroup>
+            </select>
+        </div>
+        <br><br>
+        <div>
+            Facilities <br>
+
+            <input type="checkbox" name="Adventures Expenses" id="Adventures Expenses" value="Adventures Expenses">
+            <label for="Adventures Expenses">Add Adventures Expenses</label><br>
+
+            <input type="checkbox" name="food Expenses" id="food Expenses" value="food Expenses">
+            <label for="food Expenses">Add food Expenses</label><br>
+
+            <input type="checkbox" name="living Expenses" id="living Expenses" value="living Expenses">
+            <label for="living Expenses">Add living Expenses</label><br>
+
+            <input type="checkbox" name="Travelling Expenses" id="Travelling Expenses" value="Travelling Expenses">
+            <label for="Travelling Expenses">Add Travelling Expenses</label>
+        </div>
+        <br><br><br>
+        <div>
+            <!...input type="button" name="submit" id="submit" value="submit">
+            <button style="background-color: blueviolet;">submit</button>
+        </div>
+    </div>
+</body>
+
+</html>
